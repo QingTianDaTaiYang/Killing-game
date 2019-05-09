@@ -140,7 +140,7 @@ $(document).ready(function () {
         "<div class=\"content-cont\">\n" +
         "<div class=\"cont-slayer relative cen-cen\">\n" +
         "<div class=\"moon absolute\">\n" +
-        "<img class=\"moon-img\" src=\"img/moon.png\" alt=\"图片\">\n" +
+        "<img class=\"moon-img\" src=\"../img/moon.png\" alt=\"图片\">\n" +
         "</div>\n" +
         "<div class=\"slayer-c cen-cen relative\">\n" +
         "<i class=\"slayer-i-c block absolute\"></i>\n" +
@@ -150,7 +150,7 @@ $(document).ready(function () {
         "<div class=\"cont-p-box-c\"></div>\n" +
         "<div class=\"cont-slayer relative cen-cen\">\n" +
         "<div class=\"moon absolute\">\n" +
-        "<img class=\"moon-img\" src=\"img/sun.png\" alt=\"图片\">\n" +
+        "<img class=\"moon-img\" src=\"../img/sun.png\" alt=\"图片\">\n" +
         "</div>\n" +
         "<div class=\"slayer-c cen-cen relative\">\n" +
         "<i class=\"slayer-i-c block absolute\"></i>\n" +
