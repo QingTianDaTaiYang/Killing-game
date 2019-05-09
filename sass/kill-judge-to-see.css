@@ -1,0 +1,149 @@
+html {
+  font-size: 62.5%; }
+
+body, p {
+  margin: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #29bde0; }
+
+.header-left-a {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background: url("img/back_icon.png") no-repeat; }
+
+.header-right-a {
+  width: 2rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background: url("img/fork.png") no-repeat; }
+
+.header-center-p {
+  font-size: 1.8rem;
+  color: #fff; }
+
+.cen-cen {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cen-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cen-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.items-cen {
+  display: flex;
+  align-items: center; }
+
+.flex-around {
+  display: flex;
+  justify-content: space-around; }
+
+.fixed-t {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10; }
+
+.fixed-b {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.a-none {
+  text-decoration: none; }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.border-box {
+  box-sizing: border-box; }
+
+.clear-bo {
+  clear: both; }
+
+.float-right {
+  float: right; }
+
+.footer-q {
+  background-color: #29bde0; }
+
+.footer-btn-q {
+  width: 80%;
+  height: 3.5rem;
+  margin: 1.5rem 0 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  background-color: #fbb435;
+  cursor: pointer;
+  color: #fff; }
+
+body {
+  background-color: #29bde0; }
+
+.main {
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 4rem 3% 7rem; }
+
+.option {
+  box-sizing: border-box;
+  width: 25vw;
+  height: 25vw;
+  margin-bottom: 4rem;
+  border: 0.25rem solid #fff; }
+
+.option-top-p {
+  height: 70%;
+  font-size: 1.7rem;
+  background-color: #f5c97b; }
+
+.option-bottom-p {
+  height: 30%;
+  color: #fff;
+  font-size: 1.7rem;
+  background-color: #83b09a; }
+
+/*# sourceMappingURL=task2-judge-to-see.css.map */

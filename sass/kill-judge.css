@@ -1,0 +1,239 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body, p {
+  margin: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #29bde0; }
+
+.header-left-a {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background: url("img/back_icon.png") no-repeat; }
+
+.header-right-a {
+  width: 2rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background: url("img/fork.png") no-repeat; }
+
+.header-center-p {
+  font-size: 1.8rem;
+  color: #fff; }
+
+.cen-cen {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cen-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cen-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.items-cen {
+  display: flex;
+  align-items: center; }
+
+.flex-around {
+  display: flex;
+  justify-content: space-around; }
+
+.fixed-t {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10; }
+
+.fixed-b {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.a-none {
+  text-decoration: none; }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.border-box {
+  box-sizing: border-box; }
+
+.clear-bo {
+  clear: both; }
+
+.float-right {
+  float: right; }
+
+.footer-q {
+  background-color: #29bde0; }
+
+.footer-btn-q {
+  width: 80%;
+  height: 3.5rem;
+  margin: 1.5rem 0 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  background-color: #fbb435;
+  cursor: pointer;
+  color: #fff; }
+
+body {
+  background-color: #f0f0f0; }
+
+.main {
+  margin: 6rem 5% 6rem 5%; }
+
+#main-box,
+.main-box {
+  margin-top: 1rem;
+  background-color: #fff; }
+
+.one-day {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0.1rem solid #c9c9c9;
+  color: #29bde0;
+  background-color: #fff; }
+
+#one-day {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0.1rem solid #c9c9c9;
+  color: #29bde0;
+  background-color: #fff; }
+
+#content {
+  box-sizing: border-box;
+  padding: 0 1rem 0 3rem;
+  border: 0.1rem solid #c9c9c9;
+  background-color: #fff; }
+
+.content {
+  display: none;
+  box-sizing: border-box;
+  padding: 0 1rem 0 3rem;
+  border: 0.1rem solid #c9c9c9;
+  background-color: #fff; }
+
+/*第N天内容*/
+.content-cont {
+  box-sizing: border-box;
+  padding: 1rem 0 3rem 1.5rem;
+  border-left: 0.1rem solid #c9c9c9; }
+
+.moon {
+  left: 0;
+  transform: translateX(-115%);
+  width: 30px;
+  height: 30px;
+  background-color: #fff; }
+
+.slayer {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.6rem;
+  background-color: #29bde0;
+  color: #fff; 
+  cursor:pointer;}
+
+.slayer-c {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.6rem;
+  background-color: #ccc;
+  color: #fff; }
+
+.slayer-i {
+  left: 0;
+  transform: translateX(-93%);
+  border-right: 0.7rem solid #29bde0;
+  border-top: 0.6rem solid transparent;
+  border-bottom: 0.6rem solid transparent; }
+
+.slayer-i-c {
+  left: 0;
+  transform: translateX(-93%);
+  border-right: 0.7rem solid #ccc;
+  border-top: 0.6rem solid transparent;
+  border-bottom: 0.6rem solid transparent; }
+
+.cont-p-box,
+.cont-p-box-c,
+.cont-p-box-b {
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 1.5rem; }
+
+/*页脚*/
+.footer {
+  height: 5rem;
+  background-color: rgba(178, 227, 239, 0.5); }
+
+.btn-left,
+.btn-right {
+  width: 40%;
+  height: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  color: #fff; }
+
+.btn-left {
+  background-color: #f66f6f; }
+
+.btn-right {
+  background-color: #fbb435; }
+
+/*# sourceMappingURL=task2-judge.css.map */

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import "ku";
+body {
+  background-color: #29bde0;
+}
+
+/*内容*/
+.main {
+  height: 80vh;
+  padding: 3rem 0 7rem;
+  background-color: #29bde0;
+}
+.main-number {
+  top: 0;
+  margin-top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.8rem;
+  color: #f4647d;
+  font-weight: bold;
+  border: 0.1rem solid #fff3b8;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.draw {
+  flex-direction: column;
+  width: 70%;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: #ffedc5;
+  border: 0.3rem solid #fff;
+}
+.draw-p {
+  text-align: center;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f4647d;
+}
+.main-imgbox {
+  width: 151px;
+  height: 152px;
+}
+.img-girl {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  width: 151px;
+  height: 151px;
+}
+.ing-boy {
+  display: block;
+  width: 151px;
+  height: 151px;
+}

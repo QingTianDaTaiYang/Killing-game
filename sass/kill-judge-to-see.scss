@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import "ku";
+body {
+  background-color: #29bde0;
+}
+
+.main {
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 4rem 3% 7rem;
+}
+.option {
+  box-sizing: border-box;
+  width: 25vw;
+  height: 25vw;
+  margin-bottom: 4rem;
+  border: 0.25rem solid #fff;
+}
+.option-top-p {
+  height: 70%;
+  font-size: 1.7rem;
+  background-color: #f5c97b;
+}
+.option-bottom-p {
+  height: 30%;
+  color: #fff;
+  font-size: 1.7rem;
+  background-color: #83b09a;
+}
+
+
+
+
+
+
+
+
+
+
+
+

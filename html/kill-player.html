@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+  <title>玩家配比</title>
+  <link rel="stylesheet" type="text/css" href="../sass/kill-player.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header-player" onclick="home()"></div>
+    </div>
+  </header>
+  <main>
+    <div class="main-player">
+      <div class="game-player cen-cen">
+        <p>玩家配比</p>
+      </div>
+      <div class="people flex-around">
+        <div class="people-box">
+          <i class="box-i-a inline-block"></i>
+          <p class="slayer inline-block">杀手<p id="slayer" class="inline-block">0</p>人</p>
+        </div>
+        <div class="people-box">
+          <i class="box-i-b inline-block"></i>
+          <p class="civilian inline-block">水民<p id="civilian" class="inline-block">0</p>人</p>
+        </div>
+      </div>
+      <div class="set cen-cen">
+        <p class="set-p" style="cursor:pointer;" onclick="set()">点击设置</p>
+        <img src="../img/pencil.png" alt="图片">
+      </div>
+      <div class="word-group">
+        <div class="top-groud flex-start">
+          <p class="top-groud-p">水民词组：</p>
+          <input class="top-groud-input" type="text" placeholder="限输入10个字以内" maxlength="10">
+        </div>
+        <div class="top-groud flex-start">
+          <p class="bottom-groud-p">幽灵词组：</p>
+          <input class="bottom-groud-input" type="text" placeholder="限输入10个字以内" maxlength="10">
+        </div>
+      </div>
+      <div class="range">
+        <div class="number flex-start">
+          <p class="number-a-p">请输入玩家数量</p>
+          <input type="text" class="number-input" id="number-inputs" onblur="myOnKeyUp()" placeholder="4" maxlength="2"
+            max="18" min="4" value="">
+          <p class="number-b-p">玩家数量为4-18</p>
+        </div>
+        <div class="bottom-range cen-around">
+          <div class="range-a-box cen-cen" style="cursor:pointer;" onclick="cut()"> - </div>
+          <input type="range" id="range" onchange="myRange()" max="18" min="4" value="4" step="1">
+          <div class="range-b-box cen-cen" style="cursor:pointer;" onclick="add()"> + </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer cen-cen fixed-b">
+      <button class="footer-btn" onclick="deal()">
+        去发牌
+      </button>
+    </div>
+  </footer>
+  <script src="../js/kill-player.js">
+    "use strict";
+  </script>
+</body>
+
+</html>

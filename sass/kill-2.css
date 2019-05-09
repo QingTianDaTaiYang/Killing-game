@@ -1,0 +1,241 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body, p {
+  margin: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #29bde0; }
+
+.header-left-a {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background: url("img/back_icon.png") no-repeat; }
+
+.header-right-a {
+  width: 2rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background: url("img/fork.png") no-repeat; }
+
+.header-center-p {
+  font-size: 1.8rem;
+  color: #fff; }
+
+.cen-cen {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cen-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cen-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.items-cen {
+  display: flex;
+  align-items: center; }
+
+.flex-around {
+  display: flex;
+  justify-content: space-around; }
+
+.fixed-t {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10; }
+
+.fixed-b {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.a-none {
+  text-decoration: none; }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.border-box {
+  box-sizing: border-box; }
+
+.clear-bo {
+  clear: both; }
+
+.float-right {
+  float: right; }
+
+.footer-q {
+  background-color: #29bde0; }
+
+.footer-btn-q {
+  width: 80%;
+  height: 3.5rem;
+  margin: 1.5rem 0 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  background-color: #fbb435;
+  cursor: pointer;
+  color: #fff; }
+
+p {
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+/*
+    页头
+*/
+.header {
+  height: 3rem;
+  background-color: #29bde0; }
+
+body {
+  margin: 0;
+  background-color: #29bde0; }
+
+main {
+  padding: 9rem 0 5rem; }
+
+.header-left {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 0; }
+
+.header-right {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0;
+  margin-right: 1rem;
+  background: url("../img/juxing.png") no-repeat left -2.6rem; }
+
+.title {
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 0; }
+
+/*
+发言讨论结束
+*/
+.explain {
+  height: 3rem;
+  background-color: #b9e9f5; }
+
+.explain-p {
+  font-size: 1.5rem;
+  margin-left: 2rem; }
+
+.audio {
+  width: 3rem;
+  height: 3rem;
+  background: url("../img/juxing.png") no-repeat left -5rem; }
+
+.discuss {
+  margin-top: 3rem;
+  background-color: #29bde0; }
+
+.arrow {
+  width: 0;
+  margin-left: 2rem;
+  border-top: 0.7rem solid #b9e9f5;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent; }
+
+.click {
+  margin: 0.5rem 0.5rem 0.5rem 2rem;
+  font-size: 1.3rem;
+  color: #fff; }
+
+/*
+   内容
+*/
+/*
+选择头像
+*/
+.main {
+  flex-wrap: wrap;
+  padding: 2rem 3% 7rem; }
+
+.option {
+  box-sizing: border-box;
+  width: 25vw;
+  height: 25vw;
+  margin: 0 3.3% 4rem 3.3%;
+  border: 0.25rem solid #fff; }
+
+.option-p {
+  height: 100%; }
+
+.option-top-p {
+  height: 70%;
+  font-size: 1.7rem;
+  background-color: #f5c97b; }
+
+.option-bottom-p {
+  height: 30%;
+  color: #fff;
+  font-size: 1.7rem;
+  background-color: #83b09a; }
+
+.knife {
+  bottom: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fff; }
+
+.knife-img {
+  width: 100%;
+  height: 100%; }
+
+/*
+    页脚
+*/
+
+/*# sourceMappingURL=task2-2.css.map */

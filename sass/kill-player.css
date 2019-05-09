@@ -1,0 +1,265 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body, p {
+  margin: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #29bde0; }
+
+.header-left-a {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background: url("img/back_icon.png") no-repeat; }
+
+.header-right-a {
+  width: 2rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background: url("img/fork.png") no-repeat; }
+
+.header-center-p {
+  font-size: 1.8rem;
+  color: #fff; }
+
+.cen-cen {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cen-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cen-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.items-cen {
+  display: flex;
+  align-items: center; }
+
+.flex-around {
+  display: flex;
+  justify-content: space-around; }
+
+.fixed-t {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10; }
+
+.fixed-b {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.a-none {
+  text-decoration: none; }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.border-box {
+  box-sizing: border-box; }
+
+.clear-bo {
+  clear: both; }
+
+.float-right {
+  float: right; }
+
+.footer-q {
+  background-color: #29bde0; }
+
+.footer-btn-q {
+  width: 80%;
+  height: 3.5rem;
+  margin: 1.5rem 0 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  background-color: #fbb435;
+  cursor: pointer;
+  color: #fff; }
+
+body {
+  background-color: #f0f0f0; }
+
+.header-player {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  background: url("../img/back_icon.png") no-repeat; }
+
+.main-player {
+  padding: 4rem 1rem 7rem;
+  background-color: #f0f0f0; }
+
+.game-player {
+  width: 100%;
+  height: 3rem;
+  margin: 1rem 0 1rem;
+  box-shadow: 0.2rem 0.2rem 0.3rem #ccc;
+  font-size: 1.8rem;
+  background-color: #fff; }
+
+.people {
+  height: 8rem;
+  padding: 2rem 3rem;
+  border-bottom: 0.1rem solid #d9d9d9;
+  background-color: #fbfbfb; }
+
+.box-i-a {
+  border: 0.3rem solid #007bff; }
+
+.box-i-b {
+  border: 0.3rem solid #dc3545; }
+
+.slayer,
+.civilian {
+  font-size: 1.4rem; }
+
+.set {
+  height: 3rem;
+  background-color: #fbfbfb; }
+
+.set-p {
+  color: #29bde0;
+  font-size: 1.3rem; }
+
+.word-group {
+  margin-top: 1rem;
+  padding: 1rem 3rem 1rem;
+  background-color: #fff; }
+
+.top-groud {
+  height: 3rem;
+  border-bottom: 0.1rem solid #9a9a9a; }
+
+.top-groud-p,
+.bottom-groud-p {
+  color: #9a9a9a;
+  font-size: 1.5rem; }
+
+.top-groud-input,
+.bottom-groud-input {
+  width: 60%;
+  border: none;
+  outline: none; }
+
+.range {
+  margin-top: 1rem;
+  background-color: #fff; }
+
+.number {
+  padding: 0 1rem;
+  height: 3rem; }
+
+.number-input {
+  width: 3rem;
+  margin: 0 0.2rem;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0; }
+
+.number-a-p {
+  font-size: 1.5rem; }
+
+.number-b-p {
+  color: #fbb435;
+  font-size: 1.5rem; }
+
+/*滑动块部分*/
+.bottom-range {
+  height: 5rem; }
+
+.range-a-box,
+.range-b-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 2rem;
+  color: #fbb435;
+  border: 0.1rem solid #fbb435; }
+
+/*横条样式*/
+input[type=range]:focus {
+  outline: none; }
+
+input[type=range] {
+  /*设置的是横条样式*/
+  -webkit-appearance: none;
+  /*清除系统默认样式*/
+  height: 0.2rem;
+  width: 65%;
+  background-color: #fbb435; }
+
+/*拖动块样式*/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /*清除系统默认样式*/
+  height: 2rem;
+  width: 3rem;
+  border: 0.1rem solid #fbb435;
+  border-radius: 0.5rem;
+  background: url("../img/icon (2).png") no-repeat 0.5rem 0.1rem;
+  background-size: 1.8rem;
+  background-color: #fff; }
+
+/*
+    页脚
+*/
+.footer {
+  background-color: #f0f0f0; }
+
+.footer-btn {
+  width: 80%;
+  height: 3rem;
+  margin: 2rem 0 2rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  background-color: #fbb435;
+  cursor: pointer;
+  color: #fff; }
+
+/*# sourceMappingURL=task2-player.css.map */
