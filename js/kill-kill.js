@@ -24,7 +24,7 @@ $(document).ready(function () {
   for (var i = 0; i < players.length; i++) {
     var bbb = "<div class=\"option relative\">" + "<p class=\"option-top-p cen-cen\">" + players[i].role + "</p>" +
       "<p class=\"option-bottom-p cen-cen\">" + players[i].num + "</p>" + "<div class=\"knife absolute cen-cen\">" +
-      "<img src=\"img/dao.png\" alt=\"图片\">" +
+      "<img src=\"../img/dao.png\" alt=\"图片\">" +
       "</div>" + "</div>";
     $(".main").append(bbb);//把 bbb 中的内容插入进 .main 中
     //设置死人CSS颜色
